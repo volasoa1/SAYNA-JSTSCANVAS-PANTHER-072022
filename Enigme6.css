@@ -1,0 +1,305 @@
+@font-face{
+  font-family:'Panthera';
+  src: url(./ASSETS/police/fontpanthera/pantheraregular-mvz9j-webfont.woff);
+}
+@font-face{
+  font-family: 'BEYNO';
+  src: url(./ASSETS/police/fontbeyno/beyno-webfont.woff2);
+}
+@font-face{
+  font-family: 'cantarell';
+  src: url(./ASSETS/police/fontcantarell/cantarell_regular_500-webfont.woff);
+}
+@font-face{
+  font-family: 'wakanda';
+  src:url(./ASSETS/police/fontwakanda/wakandaforever-regular-webfont.woff)
+}
+body{
+    background-color: black;
+    color: #ffffff;
+    transform: translate(-200px);
+    transition: 1s ease;
+  }
+  .show-body{
+    transform: translateX(0);
+  }
+  body h1{
+    font-size:40px;
+    object-fit: cover;
+    transition: 0.3s ease;
+  }
+  body h1:hover{
+    transform: scale(1.1);
+  }
+  body h3{
+    font-size:29px;
+    object-fit: cover;
+    transition: 0.3s ease;
+  }
+  body h3:hover{
+    transform: scale(1.1);
+  }
+/*les headers*/
+header{
+    border: #ffffff solid;
+    height: 350px;
+     border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 30px
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border: #ffffff solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    margin-left: 10px;  
+}
+nav .logo1 {
+    padding-bottom: 4.5cm;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+nav .logo1 .logo_sayna{
+    width: 25px;
+    margin: 10px;
+}
+nav .logo1 .logo_marvel{
+    width: 70px;
+    margin: 10px;
+}
+nav .titr1{
+    font-size: 20px;
+}
+nav .titr1 a{
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'BEYNO';
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+.corps{
+    display: flex;
+    justify-content: space-between;
+  }
+  .photo-dora{
+    width: 800px;
+    margin-top: -260px;
+    font-size: 100px;
+    margin-left: -70px;
+  }
+  .container-dora{
+    color: #9E91B7;
+    padding-top:50px;
+    padding-bottom: 70px;
+    font-size: 30px;
+    font-family: 'BEYNO';
+  
+  }
+  .description-dora{
+    background-image: url(ASSETS/Illustrations/3_Page_Enigme/Pantherenigme2.png);
+    block-size:center;
+    font-size: 10px;
+    margin-right: 600px;
+    width: 500px;
+    font-family: 'cantarell';
+  }
+  .petit{
+    width:20px;
+    margin-left:125px;
+  }
+  .EN1{
+    margin-left: 150px;
+  }
+  .EN1 h3{
+    text-decoration:underline;
+    color: #9E91B7;
+  }
+  h3 #num3{
+    font-family: 'BEYNO';
+  }
+  .EN1 .p1{
+    font-size: 11px;
+    font-family: 'cantarell';
+  }
+  .EN1 .p2{
+    font-size: 12px;
+   ;
+  }
+  .alphabet{
+    margin-left: 650px;
+    margin-top: -105px;
+    font-size:12px ;
+    font-family: 'cantarell';
+  }
+  .before-after{
+    margin-left:150px;
+    margin-top: 50px;
+  }
+  .before-after p{
+    font-size: 10px;
+    font-family: 'cantarell';
+  }
+  .before-after .form .type{
+    background-color: transparent;
+    padding: 5px 70px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 10px;
+    color: white;
+  
+  }
+  .submit{
+    margin-left: 240px;
+    padding:6px 28px ;
+    border-radius:18px ;
+    background-color: #F2CEF2;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  footer{
+    background-color: #06012b;
+  }
+  footer{
+    background-color: #3D2DA6;  
+  }
+  footer p{
+    font-size: 12px;
+  }
+  .blocfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;   
+  }
+  .foo1{
+    margin-left: 300px;
+    padding-right: -80px;
+    margin-top: 100px;
+    margin-bottom: 200px
+  }
+  .footer1{
+    margin-bottom:0cm;
+     margin-left: 0.3cm;
+    margin-top: 1.4cm;
+    
+  }
+  .footer2{
+    margin-right: -6.2cm;
+    margin-bottom: -4.5cm;
+    width:300px;
+  }
+  .pag{
+    width: 200px;
+    margin-top: -100px;
+    margin-left:150px;
+  }
+  footer .retro{
+    width: 400px;
+    margin-top: -20px;
+    height: auto;
+  }
+  .retro h4{
+    font-size: 16px; 
+    letter-spacing: 10px
+  }
+  .retro .items{
+    margin: 10px;
+    
+  }
+  .retro a{
+    margin: 10px;
+     
+  }
+  .item{
+    display: flex;
+    width: 600px;
+    margin-left: -230px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .item p{
+    margin: 10px;
+    margin-bottom: -100px
+  }
+  footer{
+    background-color: #3D2DA6;  
+  }
+  footer p{
+    font-size: 12px;
+  }
+  .blocfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;   
+  }
+  .foo1{
+    margin-left: 300px;
+    padding-right: -80px;
+    margin-top: 100px;
+    margin-bottom: 200px
+  }
+  .footer1{
+    margin-bottom:0cm;
+     margin-left: 0.3cm;
+    margin-top: 1.4cm;
+    
+  }
+  .footer2{
+    margin-right: -6.2cm;
+    margin-bottom: -4.5cm;
+    width:300px;
+  }
+  .pag{
+    width: 200px;
+    margin-top: -100px;
+    margin-left:150px;
+  }
+  footer .retro{
+    width: 400px;
+    margin-top: -20px;
+    height: auto;
+  }
+  .retro h4{
+    font-size: 16px; 
+    letter-spacing: 10px
+  }
+  .retro .items{
+    margin: 10px;
+    
+  }
+  .retro a{
+    margin: 10px;
+     
+  }
+  .item{
+    display: flex;
+    width: 600px;
+    margin-left: -230px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .item p{
+    margin: 10px;
+    margin-bottom: -100px
+  }
+  .mousemove{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #3D2DA6;
+    position: absolute;
+    border-radius: 50px;
+    transition: 0.2s ease;
+    transform: translate(-50% -50%);
+    z-index: -1;
+    background:url(./ASSETS/Logos/icon_tik_tok.png);
+  }

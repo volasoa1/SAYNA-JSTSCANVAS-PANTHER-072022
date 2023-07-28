@@ -1,0 +1,254 @@
+@font-face{
+    font-family:'Panthera';
+    src: url(./ASSETS/police/fontpanthera/pantheraregular-mvz9j-webfont.woff);
+  }
+  @font-face{
+    font-family: 'BEYNO';
+    src: url(./ASSETS/police/fontbeyno/beyno-webfont.woff2);
+  }
+  @font-face{
+    font-family: 'cantarell';
+    src: url(./ASSETS/police/fontcantarell/cantarell_regular_500-webfont.woff);
+  }
+  @font-face{
+    font-family: 'wakanda';
+    src:url(./ASSETS/police/fontwakanda/wakandaforever-regular-webfont.woff)
+  }
+:root{
+    --purpledark-color:#050a14ea;
+    --purpleclaire-color: #4c467c #3D2DA6;
+    --blue-color :#07338C;
+    --gradient-black:#0B0B0B;
+    --gradient-violet: #11213F;
+    --white-color:#FFFFFF;
+}
+::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0B0B0B;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    margin: 0;
+    transform: translate(-200px);
+    transition: 1s ease;
+}
+.show-body{
+    transform: translateX(0);
+}
+body h1{
+    font-size: 64px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+body h1:hover{
+    transform: scale(1.1);
+}
+
+header{
+    border: #ffffff solid;
+    height: 350px;
+     border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 30px
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border: #ffffff solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    margin-left: 10px;
+   
+  
+}
+nav .logo1 {
+    padding-bottom: 4.5cm;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+nav .logo1 .logo_sayna{
+    width: 25px;
+    margin: 10px;
+}
+nav .logo1 .logo_marvel{
+    width: 70px;
+    margin: 10px;
+}
+nav .titr1{
+    font-size: 20px;
+}
+nav .titr1 a{
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+/*section 1 */
+.wak_sect1{
+    display: flex;
+    justify-content: space-between;
+    margin-top:-280px;
+    background-image:url(./ASSETS/Illustrations/2_Wakanda_page/Pantherwakanda1.png);
+    background-attachment:0px;
+    background-size:cover;
+}
+.wakforev{
+    width: 500px;
+    height: 600px;
+    margin-left: 200px;
+    margin-top: 200px; 
+    margin-bottom: -50px;
+} 
+.wakforev h1{
+    font-size: 46px;
+    font-family: 'BEYNO';
+    color: #9E91B7;
+}
+.wakforev h3{
+    font-size: 28px;
+    color: #9E91B7;
+    font-family: 'wakanda';
+    letter-spacing: 4px;
+}
+body h3{
+    font-size:29px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+body h3:hover{
+    transform: scale(1.1);
+}
+.wakforev p{
+    font-size: 12px;
+    font-family: 'cantarell';
+}
+ 
+/*section 2 */
+.wak_sect2{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./ASSETS/Illustrations/2_Wakanda_page/Pantherwakanda2.png);
+    background-size:1000px;
+    background-repeat: no-repeat;
+    background-position:top center;
+    }
+.sect2_1{
+    margin-right: 50px;
+    margin-left: 200px;
+    width: 500px;
+}
+
+.sect2_2{
+     margin-right: 100px;
+    width: 500px;
+    margin-bottom: 80px;
+}
+p{
+    font-size: 12px;
+    font-family: 'cantarell';
+} 
+h3{
+    font-family: 'BEYNO';
+    color: #9E91B7;
+}  
+.video{
+    background-color: #3D2DA6;
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-top:50px;
+}
+.video a{
+    margin-top: -50px;
+    color: #ffffff;
+}
+/*pied de page*/
+footer{
+    background-color: #3D2DA6;  
+}
+footer p{
+    font-size: 12px;
+}
+.blocfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;   
+}
+.foo1{
+    margin-left: 300px;
+    padding-right: -80px;
+    margin-top: 100px;
+    margin-bottom: 200px
+}
+.footer1{
+    margin-bottom:0cm;
+     margin-left: 0.3cm;
+    margin-top: 1.4cm;
+    
+}
+.footer2{
+    margin-right: -6.2cm;
+    margin-bottom: -4.5cm;
+    width:300px;
+}
+.pag{
+    width: 200px;
+    margin-top: -100px;
+    margin-left:150px;
+}
+footer .retro{
+    width: 400px;
+    margin-top: -20px;
+    height: auto;
+}
+.retro h4{
+    font-size: 16px; 
+    letter-spacing: 10px
+}
+.retro .items{
+    margin: 10px;
+    
+}
+.retro a{
+    margin: 10px;
+     
+}
+.item{
+    display: flex;
+    width: 600px;
+    margin-left: -230px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.item p{
+    margin: 10px;
+    margin-bottom: -100px
+}
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #3D2DA6;
+    position: absolute;
+    border-radius: 50px;
+    transition: 0.2s ease;
+    transform: translate(-50% -50%);
+    z-index: -1;
+    background:url(./ASSETS/Logos/icon_twitter.png);
+}
+
+
+

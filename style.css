@@ -1,0 +1,443 @@
+@font-face{
+    font-family:'Panthera';
+    src: url(./ASSETS/police/fontpanthera/pantheraregular-mvz9j-webfont.woff);
+  }
+  @font-face{
+    font-family: 'BEYNO';
+    src: url(./ASSETS/police/fontbeyno/beyno-webfont.woff2);
+  }
+  @font-face{
+    font-family: 'cantarell';
+    src: url(./ASSETS/police/fontcantarell/cantarell_regular_500-webfont.woff);
+  }
+  @font-face{
+    font-family: 'wakanda';
+    src:url(./ASSETS/police/fontwakanda/wakandaforever-regular-webfont.woff)
+  }
+body{
+    background-color: black;
+    color: #ffffff;
+    transform: translateX(-200px);
+    transition: 1s ease; 
+}
+.show-body{
+    transform: translateX(0);
+}
+/*les headers*/
+header{
+    border: #ffffff solid;
+    height: 350px;
+     border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 30px
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border: #ffffff solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    margin-left: 10px;  
+}
+nav .logo1 {
+    padding-bottom: 4.5cm;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+nav .logo1 .logo_sayna{
+    width: 25px;
+    margin: 10px;
+}
+nav .logo1 .logo_marvel{
+    width: 70px;
+    margin: 10px;
+}
+nav .titr1{
+    font-size: 20px;
+    font-family: 'BEYNO';
+}
+nav .titr1 a{
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+/*premier section*/
+
+.sect1{
+    display:flex;
+    align-items: none;
+    justify-content:space-between;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: -220px;
+    padding-top:100px;
+    margin-left: 20px; 
+}
+.sect1 .sect1_01{
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 670px;
+    height:auto;
+    
+}
+.sect1 .sect1_02 img{
+    width: 600px;
+    display:flex;
+    margin-top: 20px;
+    margin-left:10px;
+  
+}
+.sect1 .sect1_02 img{
+    width:660px;
+    object-fit:cover;
+    transition: 0.3s ease;
+}
+.sect1 .sect1_02 img:hover{
+    transform: scale(1.1);
+}
+.sect1 .sect1_01 .tite1{
+    font-size: 58px;
+    color:#9E91B7;
+    font-family: 'Panthera';
+   
+}
+body h1{
+   font-size: 63px;
+   object-fit:cover ;
+   transition: 0.3s ease; 
+}  
+body h1:hover{
+   transform: scale(1.1); 
+}
+
+.tite2{
+    font-size: 30px;
+    color:#9E91B7;
+    font-family: 'BEYNO';
+}
+body h2{
+    font-size:40px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+body h2:hover{
+    transform: scale(1.1);
+}
+.sect1 .sect1_01 .tex1{
+    font-size: 12px;
+    font-family: 'cantarell';
+}
+/*section 2*/
+.sect2{
+    display: flex;
+    background-color:#07338C;
+    margin-bottom: 250px;
+    margin-top: 280px;
+    height:250px;
+    margin-left:100px;
+    justify-content: space-between; 
+}
+.pant2 img{
+    height:8cm ;
+    width:5.5cm  ;
+    margin-top:-25px;
+    margin-left: 50px;
+}
+.cap1{
+   width:7cm;
+   height: 5cm;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.cap1 .tite2{
+    font-family: 'BEYNO';
+}
+.cap1 p{
+    font-family: 'cantarell';
+}
+.pant3 img{
+   width: 200px;
+   height: 250px;
+}
+.cap2{
+   width:7cm;
+   height: 8cm;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+   
+}
+.pant4 img{
+    width: 150px;
+    height: 250px;
+}
+.cap1 p{
+   font-size: 6px;
+   font-family: 'cantarell';
+}
+.cap2 p{
+   font-size: 6px;
+   font-family: 'cantarell';
+}
+.cap2 p3{
+    font-size: 6px;
+   font-family: 'cantarell';
+   width: 50px;
+   height: 30px;
+}
+
+
+/*section 3*/
+.sect3{
+    display: flex;
+    align-items: center;
+     justify-content:center;
+     margin: 100px auto;
+     margin-top: 300px;
+}
+article{
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height:1.2 ;
+    margin-top: -200px;  
+    width: 600px;
+    height: auto;
+    margin-bottom: -100px;
+    font-family: 'cantarell';
+   
+}
+section .sect3 .para1_01{
+    background-color: #ffffff;
+    color: black;
+    width: 350px;
+    margin-left: 100px;
+}
+section .sect3 .para1_01 .tsa{
+    margin-left: 120px;
+    font-size: 18px;
+    font-family: 'cantarell';
+}
+.para1_01 .tchatex{
+    margin-top: -200px;
+    font-size: 12px;
+    padding: 30px 20px;
+    border:#ffffff solid;
+    font-family: 'cantarell';
+}
+section .sect3 .para1_01 .srtcha img{
+    width:270PX; 
+    position: relative;
+    top: -180px;
+    padding-left: 40px;
+}
+section .sect3.para1_01 p{
+    font-family: 'cantarell';
+}
+section .sect3 .para1_01 img span{
+    display: flex;
+    border-radius: 20px;
+
+}
+.p10{
+ justify-content:space-around;
+ display:flex;
+ padding: 10px  0;
+}
+.tite2{
+    font-size: 24px;
+}
+.p10 span{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*quatrième section*/
+section .sect4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -120px
+  
+}
+.sect4 article{
+    margin-left: 150px;
+    width: 600Px;
+    margin-top: 30px
+}
+
+/*section formulaire*/
+#contact{
+    background-image: url(./ASSETS/Illustrations/1_Landing_page/Pantherhome4.png);
+    background-size:cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.formula1{
+    width: 800px;
+    margin: 50px auto;
+    border-radius: 180px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(112, 128, 100, 0.192) ;
+    backface-visibility: hidden;
+    color: black; 
+}
+.formula1 .contact1{
+   width: none;
+}
+.formula1 .nous{
+    background: #ffffff;
+    font-family: 'cantarell';
+}
+#contact .formula1 .nous p{
+    font-size:11px ;
+}
+#contact .formula1 .nous h2{
+    letter-spacing: 2px;
+}
+ .form .text , .form .email ,textarea{
+ background-color: transparent;
+ width:100% ;
+ margin-top: 20px;
+ padding:15px 20px ;
+ border-radius: 50px;
+ border: 1px solid;   
+}
+::placeholder{
+    color:#FFFFFF
+}
+ .form .submit{
+padding: 10px 30px;
+margin-top: 20px;
+margin-left: 100px;
+border-radius: 30px;
+cursor: pointer;
+ }
+ .form .submit:hover{
+     background-color: yellow;
+ }
+ .formula2 p{
+    visibility: hidden;
+    width: 350px;
+    height: 150px;
+    margin: 10px auto 0;
+    font-size: 40px;
+    background-color: grey;
+    color: black;
+    border-radius: 20px; 
+    padding: 20px 20px 20px 20px;
+    
+ }
+.formula1 .nous{
+   background-color: #ffffffc4;
+   padding: 10px 290px;
+   padding-bottom: 50px;
+   border-top-left-radius: 200px;
+   border-top-right-radius:200px ;  
+}
+/*pied de page*/
+footer{
+    background-color: #3D2DA6;  
+}
+footer p{
+    font-size: 12px;
+}
+.blocfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;   
+}
+.foo1{
+    margin-left: 300px;
+    padding-right: -80px;
+    margin-top: 100px;
+    margin-bottom: 200px
+}
+.footer1{
+    margin-bottom:0cm;
+     margin-left: 0.3cm;
+    margin-top: 1.4cm;
+    
+}
+.footer2{
+    margin-right: -6.2cm;
+    margin-bottom: -4.5cm;
+    width:300px;
+}
+.pag{
+    width: 200px;
+    margin-top: -100px;
+    margin-left:150px;
+}
+footer .retro{
+    width: 400px;
+    margin-top: -20px;
+    height: auto;
+}
+.retro h4{
+    font-size: 16px; 
+    letter-spacing: 10px
+}
+.retro .items{
+    margin: 10px;
+    
+}
+.retro a{
+    margin: 10px;
+     
+}
+.item{
+    display: flex;
+    width: 600px;
+    margin-left: -230px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.item p{
+    margin: 10px;
+    margin-bottom: -100px
+}
+.mousemove{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #3D2DA6;
+    position: absolute;
+    border-radius: 50px;
+    transition: 0.2s ease;
+    transform: translate(-50% -50%);
+    z-index: -1;
+    background:url(./ASSETS/Logos/icon_twitter.png);
+}
+.bnt1{
+    border:5px;
+    border-radius: 50px;
+    background-color: #9E91B7;
+    cursor: pointer;
+}
+.bnt1:hover{
+    background-color: goldenrod;
+}
+.bnt2{
+    border: 5px;
+    border-radius: 50px;
+    background-color: #9E91B7; 
+    cursor: pointer;
+}
+.bnt2:hover{
+    background-color: goldenrod;
+}
